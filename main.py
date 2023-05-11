@@ -118,7 +118,7 @@ while True:
     # <><><> Optional Step: Show the FPS on the Webcam
     cv.putText(frame, str(int(FPS)), (10, 70), cv.FONT_HERSHEY_PLAIN, 2, (0, 255, 255), 2)
 
-    # <><><> STEP 7: Show the Frame on the window
+    # <><><> STEP 7: Show the Frame on the window.
     cv.imshow('Video', frame)
     cv.waitKey(1)
 
