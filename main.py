@@ -111,7 +111,7 @@ while True:
 
     # <><><> Optional Step: Set the FPS using the Previous and the Current Time
     # THIS IS THE SYNTAX FOR CREATING THE FPS. JUST FOLLOW / COPY THIS.
-    currentTime = time.time() # Our Local Current Time
+    currentTime = time.time() # Local Current Time
     FPS = 1/(currentTime-previousTime)
     previousTime = currentTime
 

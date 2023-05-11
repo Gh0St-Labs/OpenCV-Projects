@@ -52,7 +52,7 @@ def main():
         frameObject = detector.findHands(frameObject=frame, draw=True)
         positionList = detector.findLandmark(frame)
 
-        currentTime = time.time()  # Our Local Current Time
+        currentTime = time.time()  # Local Current Time
         FPS = 1 / (currentTime - previousTime)
         previousTime = currentTime
 
